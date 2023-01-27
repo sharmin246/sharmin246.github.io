@@ -1,6 +1,50 @@
-body {
-  background-color: bisque;
+* {box-sizing: border-box;
 }
+
+body {background-color: bisque
+}
+
+header {
+  background-color: #7D0541;
+  padding:20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 15%;
+  height: 100vh;
+  background-color: hsla(9, 100%, 64%, 0.4);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 100vh;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #7D0541;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
 
 h1 {
   color: #7D0541;
@@ -9,8 +53,6 @@ h1 {
 }
 
 p  {
-  color: red;
-  font-family: courier;
-  font-size: 100%;
+  font-family: verdana;
 }
   
